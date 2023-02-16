@@ -1,0 +1,280 @@
+.department_detail_page .main_search {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.department_detail_page .search_text_box {
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.department_detail_page .company_section,
+.department_detail_page .user_section ,
+.department_detail_page .department_section 
+{
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.department_detail_page .company_list,
+.department_detail_page .user_list,
+.department_detail_page .department_list
+ {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+}
+
+.department_detail_page .company-card,
+.department_detail_page .user-card,
+.department_detail_page .department-card
+ {
+  width: 350px;
+  height: 100%;
+  border: 0;
+  margin: 0 20px 10px 0;
+  border-radius: 24px;
+}
+.department_detail_page .company-card .ant-card-head,
+.department_detail_page .company-card .ant-card-body,
+.department_detail_page .user-card .ant-card-head,
+.department_detail_page .user-card .ant-card-body {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+}
+
+.department_detail_page .ant-card-head {
+  border-bottom: 0 !important;
+  border-radius: 24px 24px 0 0;
+}
+
+.department_detail_page .ant-card-head .ant-card-head-title,
+.department_detail_page .ant-card-head .ant-card-extra {
+  padding: 16px 0 0 0 !important;
+}
+
+.department_detail_page .company-card .ant-card-body {
+  border-top: 0 !important;
+  border-radius: 0 0 24px 24px;
+  padding: 0 24px;
+  line-height: 30px;
+}
+
+.department_detail_page .user-card .ant-card-body {
+  border-top: 0 !important;
+  border-radius: 0 0 24px 24px;
+  padding: 0 24px;
+  line-height: 30px;
+}
+
+.department_detail_page .department-card .ant-card-body {
+    padding: 10px 24px 24px 24px;
+  }
+
+.department_detail_page .stastic-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 25px 0;
+}
+.department_detail_page .stastic-div {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  border: solid 3px #f0f2f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.department_detail_page .stastic-div .st-sicon {
+  display: flex;
+  justify-content: center;
+}
+
+.department_detail_page .stastic-div .st-stext {
+  display: flex;
+  justify-content: center;
+  line-height: 0;
+  margin-top: 15px;
+}
+
+.department_detail_page .ustastic-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px 0;
+  flex-flow: wrap;
+}
+
+.department_detail_page .ucard-cnt {
+  display: flex;
+  align-items: center;
+}
+
+.department_detail_page .ucard-cnt a {
+  margin-left: 10px;
+  text-decoration-line: underline;
+  color: #ee5b15;
+}
+
+.department_detail_page .ustastic-div {
+  width: 90px;
+  height: 90px;
+  border-radius: 16px;
+  border: solid 3px #f0f2f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f4;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.department_detail_page .secure-key-icon {
+  background-color: unset;
+  cursor: unset;
+}
+.department_detail_page .ustastic-div .st-sicon {
+  display: flex;
+  justify-content: center;
+}
+
+.department_detail_page .ustastic-div .st-stext {
+  display: flex;
+  justify-content: center;
+  line-height: initial;
+  margin-top: 15px;
+}
+
+.department_detail_page .footer-btn,
+.department_detail_page .footer-btn:hover {
+  width: 12%;
+  border-radius: 12px;
+  background: #f0f2f4;
+  color: #1a1d20;
+  border: solid #f0f2f4;
+}
+
+.department_detail_page .heading {
+  color: #ffffff !important;
+}
+
+.department_detail_page .main-heading {
+  padding: 25px 0 0 25px;
+}
+
+.department_detail_page .note_btn_section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.department_detail_page .note_btn_section .cancel_btn {
+  color: #FF6921;
+}
+.department_detail_page .note_btn_section .save_btn {
+    background: #FF6921;
+    border-color:#FF6921;
+}
+
+.department_detail_page .note_text_area {
+    width: 304px;
+    height: 147px;
+    background: #F0F2F4;
+    border-radius: 12px;
+    margin: 10px 0px;
+}
+
+.department_detail_page .dstastic-main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .department_detail_page .dstastic-div {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    border: solid 3px #f0f2f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f2f4;
+    cursor: pointer;
+  }
+
+  .department_detail_page .remove-bg {
+      background: unset !important;
+      cursor: unset;
+  }
+
+  .department_detail_page .dstastic-div .st-sicon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .department_detail_page .dstastic-div .st-stext {
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+    margin-top: 15px;
+  }
+
+  .department_detail_page .ant-breadcrumb .ant-breadcrumb-link > a, .ant-breadcrumb-separator {
+    color:#ffffff;
+    font-size: 25px;
+  }
+
+  .department_detail_page .ant-breadcrumb > span:last-child {
+    color: #b1b1b1 !important;
+    font-size: 22px;
+  }
+
+  .department_detail_page .stastic-div .st-stext, .department_detail_page .ustastic-div .st-stext, .department_detail_page .dstastic-div .st-stext {
+    font-size: 12px;
+  }
+
+  .department_detail_page {
+    overflow: auto;
+    height: calc(100vh - 70px);
+  }
+
+  .department_detail_page .noData {
+    margin: 0 auto;
+  }
+
+  .department_detail_page .noData .ant-empty-description{
+    color: #fff;
+  }
+
+  /* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .department_detail_page .footer-btn, .department_detail_page .footer-btn:hover {
+    width: 100%;
+  }
+
+  .department_detail_page .company-card, .department_detail_page .user-card, .department_detail_page .department-card {
+    width: 100% !important;
+    margin: 0 0 10px 0 !important;
+  }
+
+  .department_detail_page .dstastic-div, .department_detail_page .ustastic-div {
+    width: 72px !important;
+    height: 72px !important;
+    padding: 5px;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

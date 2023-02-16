@@ -1,0 +1,85 @@
+.all_user_page .user_section {
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.user_list {
+  margin-top: 15px;
+}
+.all_user_page .ant-breadcrumb .ant-breadcrumb-link > a,
+.ant-breadcrumb-separator {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.all_user_page .heading {
+  color: #ffffff !important;
+}
+
+.all_user_page .main-heading {
+  padding: 25px 0 0 25px;
+}
+
+.all_user_page .ant-breadcrumb > span:last-child {
+  color: #b1b1b1 !important;
+  font-size: 22px;
+}
+
+.all_user_page {
+  overflow: auto;
+  height: calc(100vh - 70px);
+}
+
+.all_user_page .noData {
+  margin: 0 auto;
+}
+
+.all_user_page .noData .ant-empty-description {
+  color: #fff;
+  height: 300px !important;
+}
+
+.ant-table-filter-dropdown .contactFilterForm {
+  padding: 10px 10px 1px 10px;
+}
+
+.ant-table-filter-dropdown .contactFilterForm .ant-form-item {
+  margin-bottom: 10px;
+}
+
+.ant-table-filter-dropdown .contactFilterForm .ant-divider-horizontal {
+  margin: 10px 0;
+}
+
+.ant-table-filter-dropdown .contactFilterForm .filterBtnGrp {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.all_user_page .licenseFilter {
+  width: 20%;
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .all_user_page .ant-table-pagination-right {
+    justify-content: center;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

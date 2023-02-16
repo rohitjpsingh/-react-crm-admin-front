@@ -1,0 +1,51 @@
+.user_license_cancel_btn {
+  color: #ff6921 !important;
+  float: left;
+}
+.user_license_submit_btn {
+  background: #ff6921 !important;
+  border-color: #ff6921 !important;
+}
+.user_license_add_form .dt-picker {
+  width: 100%;
+}
+
+.user_license_add_form .st-sicon {
+  display: flex;
+  border: solid 1px #afa5a578;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  justify-content: center;
+  border-right: 0;
+  height: 32px;
+  align-items: center;
+}
+.user_license_add_modal .ant-modal-content {
+  overflow: auto;
+  border-radius: 24px;
+}
+
+.user_license_add_modal .ant-picker,.user_license_add_modal .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

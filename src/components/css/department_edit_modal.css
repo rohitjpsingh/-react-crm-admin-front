@@ -1,0 +1,35 @@
+.department_edit_cancel_btn {
+    color:#FF6921 !important;
+    float: left;
+}
+.department_edit_submit_btn {
+    background: #FF6921 !important;
+    border-color:#FF6921 !important;
+}
+.department_edit_form .dt-picker {
+    width: 100%;
+}
+
+.department_edit_modal .ant-modal-content {
+    overflow: auto;
+    border-radius: 24px;
+  }
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

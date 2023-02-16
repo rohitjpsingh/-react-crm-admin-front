@@ -1,0 +1,284 @@
+.user_detail_page .main_search {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.user_detail_page .search_text_box {
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.user_detail_page .company_section,
+.user_detail_page .user_section ,
+.user_detail_page .department_section 
+{
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.user_detail_page .company_list,
+.user_detail_page .user_list,
+.user_detail_page .department_list
+ {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+}
+
+.user_detail_page .company-card,
+.user_detail_page .user-card,
+.user_detail_page .department-card
+ {
+  width: 350px;
+  height: 100%;
+  border: 0;
+  margin: 0 20px 10px 0;
+  border-radius: 24px;
+}
+.user_detail_page .company-card .ant-card-head,
+.user_detail_page .company-card .ant-card-body,
+.user_detail_page .user-card .ant-card-head,
+.user_detail_page .user-card .ant-card-body {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+}
+
+.user_detail_page .ant-card-head {
+  border-bottom: 0 !important;
+  border-radius: 24px 24px 0 0;
+}
+
+.user_detail_page .ant-card-head .ant-card-head-title,
+.user_detail_page .ant-card-head .ant-card-extra {
+  padding: 16px 0 0 0 !important;
+}
+
+.user_detail_page .company-card .ant-card-body {
+  border-top: 0 !important;
+  border-radius: 0 0 24px 24px;
+  padding: 0 24px;
+  line-height: 30px;
+}
+
+.user_detail_page .user-card .ant-card-body {
+  border-top: 0 !important;
+  border-radius: 0 0 24px 24px;
+  padding: 0 24px;
+  line-height: 30px;
+}
+
+.user_detail_page .department-card .ant-card-body {
+    padding: 10px 24px 24px 24px;
+  }
+
+.user_detail_page .stastic-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 25px 0;
+}
+.user_detail_page .stastic-div {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  border: solid 3px #f0f2f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_detail_page .stastic-div .st-sicon {
+  display: flex;
+  justify-content: center;
+}
+
+.user_detail_page .stastic-div .st-stext {
+  display: flex;
+  justify-content: center;
+  line-height: 0;
+  margin-top: 15px;
+}
+
+.user_detail_page .ustastic-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px 0;
+  flex-flow: wrap;
+}
+
+.user_detail_page .ucard-cnt {
+  display: flex;
+  align-items: center;
+}
+
+.user_detail_page .ucard-cnt a {
+  margin-left: 10px;
+  text-decoration-line: underline;
+  color: #ee5b15;
+}
+
+.user_detail_page .ustastic-div {
+  width: 90px;
+  height: 90px;
+  border-radius: 16px;
+  border: solid 3px #f0f2f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f2f4;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.user_detail_page .secure-key-icon {
+  background-color: unset;
+  cursor: unset;
+}
+.user_detail_page .ustastic-div .st-sicon {
+  display: flex;
+  justify-content: center;
+}
+
+.user_detail_page .ustastic-div .st-stext {
+  display: flex;
+  justify-content: center;
+  line-height: initial;
+  margin-top: 15px;
+}
+
+.user_detail_page .footer-btn,
+.user_detail_page .footer-btn:hover {
+  width: 12%;
+  border-radius: 12px;
+  background: #f0f2f4;
+  color: #1a1d20;
+  border: solid #f0f2f4;
+}
+
+.user_detail_page .heading {
+  color: #ffffff !important;
+}
+
+.user_detail_page .main-heading {
+  padding: 25px 0 0 25px;
+}
+
+.user_detail_page .note_btn_section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.user_detail_page .note_btn_section .cancel_btn {
+  color: #FF6921;
+}
+.user_detail_page .note_btn_section .save_btn {
+    background: #FF6921;
+    border-color:#FF6921;
+}
+
+.user_detail_page .note_text_area {
+    width: 304px;
+    height: 265px;
+    background: #F0F2F4;
+    border-radius: 12px;
+    margin: 10px 0px;
+}
+
+.user_detail_page .dstastic-main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .user_detail_page .dstastic-div {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    border: solid 3px #f0f2f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f2f4;
+    cursor: pointer;
+  }
+
+  .user_detail_page .remove-bg {
+      background: unset !important;
+      cursor: unset;
+  }
+
+  .user_detail_page .dstastic-div .st-sicon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user_detail_page .dstastic-div .st-stext {
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+    margin-top: 15px;
+  }
+
+  .user_detail_page .ant-breadcrumb .ant-breadcrumb-link a, .ant-breadcrumb-separator {
+    color:#ffffff;
+    font-size: 25px;
+  }
+
+  .user_detail_page .ant-breadcrumb > span:last-child {
+    color: #b1b1b1 !important;
+    font-size: 22px;
+  }
+  
+  .user_detail_page .stastic-div .st-stext, .user_detail_page .ustastic-div .st-stext, .user_detail_page .dstastic-div .st-stext {
+    font-size: 12px;
+  }
+
+  .user_detail_page {
+    overflow: auto;
+    height: calc(100vh - 70px);
+  }
+
+  .user_detail_page .noData {
+    margin: 0 auto;
+  }
+
+  .user_detail_page .noData .ant-empty-description{
+    color: #fff;
+  }
+
+  /* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .user_detail_page .footer-btn, .user_detail_page .footer-btn:hover {
+    width: 100%;
+  }
+
+  .user_detail_page .company-card, .user_detail_page .user-card, .user_detail_page .department-card {
+    width: 100% !important;
+    margin: 0 0 10px 0 !important;
+  }
+
+  .user_detail_page .stastic-div, .user_detail_page .dstastic-div, .user_detail_page .ustastic-div {
+    width: 72px !important;
+    height: 72px !important;
+    padding: 5px;
+  }
+
+  .user_detail_page .note_text_area {
+    height: 200px;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */

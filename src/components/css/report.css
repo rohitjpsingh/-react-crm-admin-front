@@ -1,0 +1,77 @@
+.report_page {
+  overflow: auto;
+  height: calc(100vh - 70px);
+}
+
+.report_page .ant-breadcrumb .ant-breadcrumb-link a,
+.ant-breadcrumb-separator {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.report_page .ant-breadcrumb > span:last-child {
+  color: #b1b1b1 !important;
+  font-size: 22px;
+}
+
+.report_page .main-heading {
+  padding: 25px 0 0 25px;
+}
+
+.report_page .report_section {
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.report_page .valueReport,
+.report_page .userReport,
+.report_page .licenseReport,
+.report_page .licenseRoleReport,
+.report_page .companyReport {
+  margin-bottom: 15px;
+}
+
+.report_page .valueReport,
+.report_page .userReport,
+.report_page .licenseRoleReport,
+.report_page .companyReport {
+  background: #fff;
+}
+
+.report_page .filter {
+  padding: 25px 25px 0 25px;
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  width: 100%;
+}
+
+.report_page .licenseFilter {
+  width: 20%;
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code Start ::::::::::::::::::::::::::: */
+
+/* Mobile devices */
+@media screen and (max-device-width: 480px) {
+  .report_page .licenseFilter {
+    width: 100%;
+  }
+  .report_page .filter {
+    position: relative;
+  }
+}
+/* iPads, Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 767px) {
+}
+/* Small screens, laptops */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+/* Desktops, large screens */
+@media screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+}
+/* Extra large screens, TV */
+@media screen and (min-device-width: 1201px) {
+}
+
+/* :::::::::::::::::::::: Responsive CSS Code End ::::::::::::::::::::::::::: */
